@@ -32,6 +32,11 @@ PRODUCT_PACKAGES += \
     Stk
 endif
 
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
+
 # Latin IME lib
 PRODUCT_COPY_FILES += \
     vendor/aoezp/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
