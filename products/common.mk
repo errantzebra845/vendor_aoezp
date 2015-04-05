@@ -13,6 +13,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+    dalvik.vm.image-dex2oat-filter=everything \
+    dalvik.vm.dex2oat-filter=everything
+    
 PRODUCT_PACKAGES += \
     Launcher3
 # Auto-rotate
