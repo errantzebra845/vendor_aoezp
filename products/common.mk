@@ -44,5 +44,9 @@ PRODUCT_COPY_FILES += \
 #Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aoezp/overlay/common
 
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
 # Inherit common product build prop overrides
 -include vendor/aoezp/products/common_full.mk
