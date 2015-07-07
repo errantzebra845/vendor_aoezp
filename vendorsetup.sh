@@ -1,3 +1,3 @@
-add_lunch_combo rascarlo_emulator-eng
-add_lunch_combo rascarlo_hammerhead-user
-add_lunch_combo rascarlo_manta-user
+add_lunch_combo aoezp_emulator-eng
+add_lunch_combo aoezp_bacon-user
+add_lunch_combo aoezp_shamu-user

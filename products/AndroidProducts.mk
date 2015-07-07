@@ -1,4 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rascarlo_emulator.mk \
-    $(LOCAL_DIR)/rascarlo_hammerhead.mk \
-    $(LOCAL_DIR)/rascarlo_manta.mk
+    $(LOCAL_DIR)/aoezp_emulator.mk \
